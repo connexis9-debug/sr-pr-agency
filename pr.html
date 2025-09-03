@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SR PR Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- External Custom CSS -->
+  <link rel="stylesheet" href="pr.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+
+ 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
+  <style>
+    
+
+
+
+
+ .slider-img {
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* arrows styling */
+        .slick-prev,
+        .slick-next {
+            background: black;
+            color: white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            z-index: 2;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            color: white;
+            font-size: 20px;
+        }
+
+        /* container for arrows */
+        .slider-arrows {
+            text-align: center;
+        }
+
+        .slick-prev {
+            margin-left: 36px;
+            margin-top: 300px;
+        }
+
+        .slick-next {
+            margin-right: 28px;
+            margin-top: 300px;
+        }
+
+        .slick-prev,
+        .slick-next {
+            background: black !important;
+            /* fix background */
+            color: white !important;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            z-index: 2;
+            border: none;
+            outline: none;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            color: white !important;
+            /* fix arrow color */
+            font-size: 20px;
+            opacity: 1 !important;
+        }
+
+        /* disable hover/focus/active effects */
+        .slick-prev:hover,
+        .slick-prev:focus,
+        .slick-next:hover,
+        .slick-next:focus {
+            background: black !important;
+            color: white !important;
+            outline: none !important;
+        }
+
+        .slick-prev:active,
+        .slick-next:active {
+            background: black !important;
+            color: white !important;
+        }  </style>
+
+</head>
+
+<body>
+
+
+
+
+<div class="wrapper">
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+
+      <!-- Logo -->
+      <a class="navbar-brand" href="pr.html">
+        <img src="images/PR_AGENCY_LOGO_Dark-removebg-preview.png" style=" height: 150px; width: 150px;   margin-top: -16px;
+    " alt="SR PR Agency Logo">
+      </a>
+
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
+          height="50" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"
+          class="">
+          <g>
+            <path
+              d="M406 341H106c-19.3 0-35 15.7-35 35s15.7 35 35 35h300c19.3 0 35-15.7 35-35s-15.7-35-35-35zm25 35c0 13.8-11.2 25-25 25H106c-13.8 0-25-11.2-25-25s11.2-25 25-25h300c13.8 0 25 11.2 25 25zm-25-275H106c-19.3 0-35 15.7-35 35s15.7 35 35 35h300c19.3 0 35-15.7 35-35s-15.7-35-35-35zm25 35c0 13.8-11.2 25-25 25H106c-13.8 0-25-11.2-25-25s11.2-25 25-25h300c13.8 0 25 11.2 25 25zm-25 85H106c-19.3 0-35 15.7-35 35s15.7 35 35 35h300c19.3 0 35-15.7 35-35s-15.7-35-35-35zm25 35c0 13.8-11.2 25-25 25H106c-13.8 0-25-11.2-25-25s11.2-25 25-25h300c13.8 0 25 11.2 25 25z"
+              fill="#000000" opacity="1" data-original="#000000" class=""></path>
+          </g>
+        </svg>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="Agency.html">Agency</a></li>
+          <li class="nav-item"><a class="nav-link" href="clients.html">Clients</a></li>
+          <li class="nav-item"><a class="nav-link" href="leadership.html">Leadership</a></li>
+
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <section class="herosection">
+    <div class="container-fluid">
+      <div class="whitebg">
+        <h1>Own Your Story</h1>
+        <img src="https://jpublicrelations.com/wp-content/themes/jcomm/dist/images/large-line-icon_381154aa.svg" alt="">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Hero Section -->
+  <section class="hero-section1  align-items-center justify-content-center text-center text-gold">
+    <div class="container">
+
+
+      <p class="lead hero-paragraph">
+        SR PR is a premier agency dedicated to luxury travel, lifestyle, and real estate brands.
+        We craft compelling narratives that elevate some of the world’s most desirable names.
+        With expertise in public relations, social media, content strategy, and brand partnerships,
+        we connect our clients to leading media and the audiences that matter most.
+      </p>
+      <div class="btnsection ">
+        <a href="#" class="btn btn-outline-gold mt-md-3" style="     color: white;
+    font-weight: 900; background-color: black;  font-size: 23px;">Let’s
+          Connect</a>
+        <a href="#" class=" btn-gold" style="font-size: 23px;">More About Us</a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Slider Section -->
+
+
+  
+    
+<div class="container-fluid slidersection sectionhaslayout">
+  <div class="row align-items-center">
+    <!-- LEFT DESCRIPTION -->
+    <div class="col-md-5">
+      <h2 class="text-uppercase ">Clients & Industries</h2>
+      <h3 id="desc-title" class="fw-bold">Travel & Hospitality</h3>
+      <p id="desc-text">
+        J/PR works with leading luxury brands, crafting compelling stories for 
+        restaurants, hotels, resorts, and spas.
+      </p>
+      <a href="#" class="fw-bold text-dark text-decoration-none">See All Clients →</a>
+    </div>
+
+    <!-- RIGHT SLIDER -->
+    <div class="col-md-7">
+      
+        <div class="slider">
+                    <div>
+                        <img style="
+                  width: 280px;
+                  height: 435px;
+                  transition: all 0.25s ease;
+                  width: 100%;
+                  max-height: 550px;
+                  object-fit: cover;
+                " src="images/150A2398-1.jpg" class="slider-img" alt="Travel & Hospitality" />
+                <h2>Travel & Hospitality</h2>
+                    </div>
+                    <div>
+                        <img style="
+                  width: 280px;
+                  height: 435px;
+                  transition: all 0.25s ease;
+                  width: 100%;
+                  max-height: 550px;
+                  object-fit: cover;
+                " src="images/JCOMM-Client-Thumbnails-508x790-Visit-Utah-50.jpg" class="slider-img"
+                            alt="Destination Marketing" />
+                            <h2>Destination Marketing</h2>
+                    </div>
+                    <div>
+                        <img style="          width: 280px;
+                height: 435px; transition: all 0.25s ease;
+            width: 100%;
+                max-height: 550px;
+                object-fit: cover;
+                " src="images/Featured-Image_California-Olive-Ranch_Updated-8.jpg" class="slider-img"
+                            alt="Lifestyle Brands" />
+                            <h2>Lifestyle Brands</h2>
+                    </div>
+                    <div>
+                        <img style="
+                  width: 280px;
+                  height: 435px;
+                  transition: all 0.25s ease;
+                  width: 100%;
+                  max-height: 550px;
+                  object-fit: cover;
+                " src="images/JCOMM-Client-Thumbnails-508x790-Westfield-UTC-53.jpg" class="slider-img"
+                            alt="Food & Beverage" />
+                            <h2>Food & Beverage</h2>
+                    </div>
+                </div>
+                <!-- arrows will come here -->
+                <div class="slider-arrows"></div>
+            </div>
+      <!-- arrows will come here -->
+ 
+    </div>
+    
+  </div>
+
+
+  
+
+
+
+
+
+
+  <!-- cards sections -->
+
+
+  <section class="home-content sectionhaslayout " id="awards-press">
+    <div class="container-sm">
+      <div class="row">
+        <!-- Left Column -->
+        <div class="col-lg-4">
+          <div>
+            <h2 class="awardsheading">Awards &amp; Press</h2>
+            <p class="cardsparagraph">
+              At J/PR, we’re honored to have been recognized by the biggest names in the business whether that be for
+              our workplace culture, winning campaign ideas or industry performance.
+            </p>
+            <a href="#" class="cardlink">View All</a>
+          </div>
+        </div>
+
+        <!-- Right Column Awards -->
+        <div class="col-lg-8 row awards">
+          <div class="single-award-logo col-6 col-lg-4 col-xl-3">
+            <div class="award-logo">
+              <img src="https://jpublicrelations.com/wp-content/uploads/2023/07/inc-5000.png" alt="Inc. 5000">
+            </div>
+          </div>
+
+          <div class="single-award-logo col-6 col-lg-4 col-xl-3">
+            <div class="award-logo">
+              <img src="https://jpublicrelations.com/wp-content/uploads/2023/07/100-PR-Net-2022.png"
+                alt="100 PR Net 2022">
+            </div>
+          </div>
+
+          <div class="single-award-logo col-6 col-lg-4 col-xl-3">
+            <div class="award-logo">
+              <img src="https://jpublicrelations.com/wp-content/uploads/2023/07/forbes.png" alt="Forbes">
+            </div>
+          </div>
+
+          <div class="single-award-logo col-6 col-lg-4 col-xl-3">
+            <div class="award-logo">
+              <img src="https://jpublicrelations.com/wp-content/uploads/2023/07/Inc-Best-Places-to-Work-2022-1.png"
+                alt="Inc Best Places to Work 2022">
+            </div>
+          </div>
+
+          <div class="single-award-logo col-6 col-lg-4 col-xl-3">
+            <div class="award-logo">
+              <img src="https://jpublicrelations.com/wp-content/uploads/2023/07/PR-Couture.jpg" alt="PR Couture">
+            </div>
+          </div>
+
+          <div class="single-award-logo col-6 col-lg-4 col-xl-3">
+            <div class="award-logo">
+              <img
+                src="https://jpublicrelations.com/wp-content/uploads/2023/07/pr-week-uk-winner-best-campaign-of-the-year.png"
+                alt="PR Week">
+            </div>
+          </div>
+
+          <div class="single-award-logo col-6 col-lg-4 col-xl-3">
+            <div class="award-logo">
+              <img src="https://jpublicrelations.com/wp-content/uploads/2023/07/Inc.png" alt="Inc.">
+            </div>
+          </div>
+
+          <div class="single-award-logo col-6 col-lg-4 col-xl-3">
+            <div class="award-logo">
+              <img src="https://jpublicrelations.com/wp-content/uploads/2023/07/agency-elite-top-100.png"
+                alt="Top Agency Elite 100">
+            </div>
+          </div>
+
+          <div class="single-award-logo col-6 col-lg-4 col-xl-3">
+            <div class="award-logo">
+              <img src="https://jpublicrelations.com/wp-content/uploads/2023/07/PR-News.png" alt="PR News">
+            </div>
+          </div>
+
+          <div class="single-award-logo col-6 col-lg-4 col-xl-3">
+            <div class="award-logo">
+              <img src="https://jpublicrelations.com/wp-content/uploads/2023/07/crains.png"
+                alt="Crain's 2020 Best Places to Work in NYC">
+            </div>
+          </div>
+
+          <div class="single-award-logo col-6 col-lg-4 col-xl-3">
+            <div class="award-logo">
+              <img src="https://jpublicrelations.com/wp-content/uploads/2023/07/odwyers.png"
+                alt="2019 O'Dwyer’s Top Ranked PR Firms">
+            </div>
+          </div>
+
+          <div class="single-award-logo col-6 col-lg-4 col-xl-3">
+            <div class="award-logo">
+              <img src="https://jpublicrelations.com/wp-content/uploads/2023/07/Observer-PR-Power-50.png"
+                alt="Observer PR Power 50">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+        <section class="herosection6 sectionhaslayout">
+            <div class="container-xxl">
+               <div  class="bg  ">
+                 <h1  style="display: contents;" class="text-white text-md-right text-center"><a style="    margin-left: 422px;" href="#">LET'S CONNECT</a></h1>
+               </div>
+                
+            </div>
+        </section>
+
+
+
+
+
+        <footer class=" px-4 sectionhaslayout">
+
+            <div class="container-fluid">
+                <div class="row ">
+
+                    <div class=" col-12 col-md-6">
+                        <div class="topleftfooter d-md-flex">
+                        <img class="img-fluid" src="images/PR_AGENCY_LOGO_Dark-removebg-preview.png" alt="">
+                    
+
+
+                        <ul class="d-flex pt-5">
+                            <li class="px-3 "><a href="#">Clients</a></li>
+                            <li class="px-3"><a href="#">Careers</a></li>
+                            <li class="px-3"><a href="#">Idea</a></li>
+                            <li class="px-3"><a href="#">Podcast</a></li>
+                            <li class="px-3"><a href="#">Contact</a></li>
+                        </ul>
+                    
+                        </div>
+                    </div>
+
+
+                     <div class=" col-12 col-md-6">
+                        <div class="toprightfooter pt-3 pt-md-0 d-md-flex">
+                            <ul class="city-list text-right">
+                            <li><a href="">New York</a></li>
+                            <li><a href="">San Diego</a></li>
+                            <li><a href="">Scottsdale</a></li>
+                            <li><a href="">Nashville</a></li>
+                            <li><a href="">Los Angeles</a></li>
+                            <li><a href="">Atlanta</a></li>
+                            <li><a href="">London</a></li>
+                            <li><a href="">Denver</a></li>
+                            <li><a href="">   San Francisco</a></li>
+                        </ul>
+                    
+                        </div>
+                    </div>
+                
+                        
+
+
+                    
+
+                </div>
+                
+            </div>
+
+
+        </footer>
+
+
+
+        <section class="podcast-newsletter py-5">
+            <div class="container">
+                <div class="row align-items-start">
+
+                    <!-- Podcast Left Block -->
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <div class="podcast-box d-flex p-4">
+                            <img src="your-image.jpg" alt="Priority Status" class="img-fluid mr-4"
+                                style="max-width: 120px;">
+                            <div>
+                                <h5 class="mb-2">EPISODE 76 <button class="play-btn">&#9658;</button></h5>
+                                <p class="m-0">Destination Guide: Nashville (for the Girls!)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter Right Block -->
+                    <div class="col-md-6">
+                        <h5 class="font-weight-bold mb-2">Experience Our View From The Window Seat ➝</h5>
+                        <p class="mb-4">Your quarterly view from 30,000 feet providing exclusive access to insights on
+                            the
+                            evolving landscape of travel, retail & lifestyle brands.</p>
+
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control form-field" placeholder="FIRST NAME*">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control form-field" placeholder="LAST NAME*">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control form-field" placeholder="COMPANY NAME">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control form-field" placeholder="EMAIL*">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-dark px-4">SUBSCRIBE</button>
+                        </form>
+
+                        <!-- Social Icons -->
+                        <div class="social-icons mt-4">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer class="footer py-3 mt-4">
+            <div class="container d-flex justify-content-between align-items-center">
+                <p style="font-size: 20px;     font-weight: 900;    font-family: 'Georgia', serif;" class="m-0 small ">©2021 J PUBLIC RELATIONS. ALL RIGHTS RESERVED</p>
+                <div cl>
+                    <a href="#">PRIVACY</a> |
+                    <a href="#">TERMS</a>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap 4 JS (for navbar toggle) -->
+   <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Slick JS -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  const descriptions = [
+    {
+      title: "Travel & Hospitality",
+      text: "J/PR works with leading luxury brands, crafting compelling stories for restaurants, hotels, resorts, and spas."
+    },
+    {
+      title: "Destination Marketing",
+      text: "Capturing the attention of travelers with inspiring campaigns and unique experiences."
+    },
+    {
+      title: "Lifestyle Brands",
+      text: "Creating meaningful connections for lifestyle and consumer brands."
+    },
+    {
+      title: "Food & Beverage",
+      text: "Crafting PR campaigns for food and beverage brands that resonate with customers."
+    }
+  ];
+
+  $('.slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    infinite: true,
+    arrows: true,
+    dots: false,
+    centerMode: false,
+    appendArrows: $('.slider-arrows') // 👈 arrows neeche ke div me aayenge
+  });
+
+  // Update description on slide change
+  $('.slider').on('afterChange', function(event, slick, currentSlide){
+    let index = currentSlide % descriptions.length;
+    document.getElementById("desc-title").textContent = descriptions[index].title;
+    document.getElementById("desc-text").textContent = descriptions[index].text;
+  });
+</script></body>
+</html>

@@ -1,0 +1,2625 @@
+body {
+  
+  font-family: "Poppins", sans-serif;
+}
+
+:root{
+  --text-color-positive-down: 0 51 40;
+}
+.wrapper{
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+  /* style.css */
+
+/* Body background */
+body {
+  margin: 0;
+  padding: 0;
+  background-color:white /* Espresso dark background */
+}
+
+/* Navbar styling */
+.custom-navbar {
+  background-color:white;
+  padding: 1rem 0;
+}
+
+/* Logo size */
+.navbar-brand img {
+  height: 150px;
+  width: 150px;
+}
+
+/* Navigation links */
+.navbar-nav .nav-link {
+  color:black !important; /* Golden ochre */
+  font-family: 'Georgia', serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive menu styling */
+@media (max-width: 991px) {
+  .navbar-nav {
+    background-color:white;
+    padding-top: 10px;
+  }
+}
+
+ .navbar-nav li a {
+    font-size: 21px;
+    gap: 100px;
+        margin-top: -10px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Color Scheme */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color:white;
+  color:black;
+}
+
+.text-gold {
+  color:black;
+}
+
+.hero-section {
+  min-height: 100vh;
+  background-color:white;
+  padding: 60px 20px;
+}
+
+
+
+
+
+
+
+
+
+.sr-logo {
+  max-width: 150px;
+}
+
+.hero-paragraph {
+  
+    font-size: 27px;
+    max-width: 1100px;
+    line-height: 1.6;
+    margin: 0 auto;
+    margin-top: 145px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+
+}
+
+
+
+.herosection img{
+      margin-left: 694px;
+    margin-top: 144px;
+        width: 147px;
+    height: 171px;
+}
+
+
+/* Buttons */
+.btn-gold {
+  
+  color:black;
+  
+  text-decoration: underline;
+  
+
+
+  position: relative;
+    top: 34px;
+    left: 51px;
+
+
+
+
+
+
+
+
+
+
+        line-height: 1;
+    text-transform: uppercase;
+    font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 1.45em;
+    transition: all .3s;
+  
+}
+
+.btn-outline-gold {
+  background-color: black;
+  color:white;
+  border: none;
+  padding: 15px 30px;
+  
+
+
+
+      margin-top: 60px;
+    margin-left: -109px;
+    padding-right: 50px;
+    padding-left: 50px;
+
+
+
+
+
+
+
+        line-height: 1;
+    text-transform: uppercase;
+    font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 1.45em;
+    transition: all .3s;
+}
+.btn-outline-gold:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.btnsection{
+  column-gap: 20px;
+}
+
+
+.hero-section1{
+    margin-top: 40px;
+    margin-bottom: 140px
+}
+
+
+
+
+
+
+
+
+
+.whitebg{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+
+.whitebg h1{
+        padding-left: 400px;
+    padding-top: 200px;
+    font-size: 100px;
+    color: white;
+}
+
+
+
+
+.herosection2 img{
+  width: 280px;
+  height: 435px;
+  margin-left: 100px;
+  gap: 10px;
+}
+
+
+
+
+.herosection2{
+    margin-top: -118px;
+    background-color: white;
+    padding: 125px;
+}
+
+.herosection2 h5{
+      color: #000;
+    font-family: 'Playfair Display SC Regular', 'Playfair Display SC', 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+    margin-left: 170px;
+}
+
+
+.herosection3{
+    margin-top: -52px;
+    background-color: black;
+    padding: 125px;
+    height: 80px;
+}
+
+
+.main-nav a {
+  margin: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  
+  text-decoration: none;
+  
+      color:black;
+    font-size: 16px;
+}
+
+.main-nav a:hover {
+  color:black; /* gold */
+  
+}
+
+.main-nav{
+    margin-left: -429px;
+}
+
+.city-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  column-count: 3;
+  margin-bottom: 10px;
+  column-gap: 20px;
+  font-family: 'Georgia', serif;
+  font-size: 17px;
+  text-transform: uppercase;
+      margin-left: -218px;
+    margin-right: 143px;
+}
+
+.city-list li a {
+  margin-bottom: 6px;
+  color:black;
+}
+
+
+
+
+.small{
+        font-size: 20px;
+    font-weight: 900;
+}
+
+
+
+
+.privacysection a{
+    color:black;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+
+
+
+.podcast-box {
+  border: 1px solid #eee;
+  align-items: center;
+  background-color: #fafafa;
+
+      margin-left: -34px;
+    margin-top: 59px;
+    
+}
+
+.play-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.form-field {
+  background-color: #f4f4f4;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.social-icons a {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #000;
+}
+
+.social-icons a:hover {
+  color: black;
+}
+
+.footer {
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+      padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+
+
+.herosection6 {
+ 
+
+
+
+      background-color: black;
+    width: 1520px;
+    height: 222px;
+
+}
+.herosection6 h1 a {
+  color: white;
+}
+
+.herosection6 h1 {
+  font-size: 72px;
+  color: white;
+  
+  
+}
+
+.herosection6 h1:hover {
+  text-decoration: underline;
+  color: white;
+  height: 3px;
+}
+
+
+.herosection7{
+  margin-top: -122px;
+}
+
+
+.dynamicdata{
+      margin-left: -103px;
+}
+
+.dynamicdata h3{
+          color: #000;
+    font-family: 'Playfair Display SC Regular', 'Playfair Display SC', 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+    text-transform:uppercase;
+    margin-top: 10px;
+}
+
+
+
+
+  .dynamicdata h1 {
+
+  font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 800;
+        font-size: 2.45em;
+}
+
+
+
+.dynamicdata p {
+      font-size: 1.15em;
+      font-family: 'playfair Display';
+      width: 475px;
+
+          display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    line-height: 36px;
+}
+
+
+.herosection2 a{
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 1.45em;
+    transition: all .3s;
+    color: black;
+    text-decoration: underline;
+    position: relative;
+    top: 68px;
+
+}
+
+
+.leftarrow{
+      margin-left: 605px;
+    margin-top: -120px;
+}
+
+.rightarrow{
+      margin-left: 1445px;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+/* Section spacing */
+.home .home-content#awards-press {
+  padding-bottom: 60px;
+}
+
+.home .home-content:not(#locations-list) {
+  padding: 110px 0 55px;
+}
+
+@media screen and (min-width: 1500px) {
+  .home #awards-press {
+    padding-right: 60px !important;
+  }
+}
+
+/* Container */
+.container-sm {
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Flex Row */
+#awards-press .container-sm > .row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+@media (min-width: 991px) {
+  #awards-press .container-sm > .row {
+    justify-content: space-evenly;
+  }
+}
+
+/* Left column */
+@media (min-width: 991px) {
+  .home .home-content#awards-press .container-sm > .row > div:first-child {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Column sizes */
+@media (min-width: 991px) {
+  .col-lg-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+
+  .col-lg-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .col-xl-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+/* Award logos */
+section#awards-press .single-award-logo {
+  padding: 10px;
+}
+
+section#awards-press .award-logo {
+  background: #f8f8f8;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 40px;
+}
+
+section#awards-press .award-logo img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+.awardsheading{
+      color: #000;
+    font-family: 'Playfair Display SC Regular', 'Playfair Display SC', 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+        position: relative;
+    left: 38px;
+    bottom: -194px;
+}
+
+
+.cardsparagraph{
+      font-size: 1.15em;
+      font-family: 'Playfair Display ',sans-serif;
+      font-weight: 400;
+      margin-top: 224px;
+    margin-left: 32px;
+}
+
+
+.cardlink{
+  color: black;
+      line-height: 1;
+      text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 1.45em;
+    transition: all .3s;
+    margin-left: 32px;
+     margin-top: 24px;
+}
+
+
+
+
+
+/* pr.css - Responsive CSS for SR PR Agency */
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/* Navbar styling */
+.custom-navbar {
+    background-color: white;
+    padding: 1rem 0;
+}
+
+/* Logo size */
+.navbar-brand img {
+    height: 150px;
+    max-width: 150px;
+}
+
+/* Navigation links */
+.navbar-nav .nav-link {
+    color: black !important;
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    font-size: 21px;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive menu styling */
+@media (max-width: 991px) {
+    .navbar-nav {
+        background-color: white;
+        padding-top: 10px;
+    }
+    
+    .navbar-brand img {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+}
+
+/* Hero Section */
+.text-gold {
+    color: black;
+}
+
+.hero-paragraph {
+    font-size: 27px;
+    max-width: 1100px;
+    line-height: 1.6;
+    margin: 0 auto;
+    margin-top: 145px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.herosection img {
+    margin-left: 694px;
+    margin-top: 144px;
+    width: 147px;
+    height: 171px;
+}
+
+/* Buttons */
+.btn-gold {
+    color: black;
+    text-decoration: underline;
+    position: relative;
+    top: 34px;
+    left: 51px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 1.45em;
+    transition: all .3s;
+}
+
+.btn-outline-gold {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 60px;
+    margin-left: -109px;
+    padding-right: 50px;
+    padding-left: 50px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 1.45em;
+    transition: all .3s;
+}
+
+.btn-outline-gold:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.btnsection {
+    column-gap: 20px;
+}
+
+.hero-section1 {
+    margin-top: 40px;
+    margin-bottom: 140px;
+}
+
+.whitebg {
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+
+.whitebg h1 {
+    padding-left: 400px;
+    padding-top: 200px;
+    font-size: 100px;
+    color: white;
+}
+
+/* Client Section */
+.herosection2 img {
+    width: 280px;
+    height: 435px;
+    margin-left: 100px;
+    gap: 10px;
+}
+
+.herosection2 {
+    margin-top: -118px;
+    background-color: white;
+    padding: 125px;
+}
+
+.herosection2 h3 {
+    
+
+
+    color: #000;
+    font-family: 'Playfair Display SC Regular', 'Playfair Display SC', 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.3em;
+   
+   
+   
+}
+
+.dynamicdata {
+    margin-left: -103px;
+}
+
+.dynamicdata h3 {
+    color: #000;
+    font-family: 'Playfair Display SC Regular', 'Playfair Display SC', 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.dynamicdata h1 {
+    font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 2.45em;
+}
+
+.dynamicdata p {
+    font-size: 1.15em;
+    font-family: 'playfair Display';
+    width: 475px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    line-height: 36px;
+}
+
+.herosection2 a {
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 1.45em;
+    transition: all .3s;
+    color: black;
+    text-decoration: underline;
+    position: relative;
+    top: 68px;
+}
+
+/* Arrows */
+.leftarrow {
+    margin-left: 605px;
+    margin-top: -120px;
+}
+
+.rightarrow {
+    margin-left: 1445px;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+/* Awards Section */
+.home .home-content#awards-press {
+    padding-bottom: 60px;
+}
+
+.home .home-content:not(#locations-list) {
+    padding: 110px 0 55px;
+}
+
+@media screen and (min-width: 1500px) {
+    .home #awards-press {
+        padding-right: 60px !important;
+    }
+}
+
+.container-sm {
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#awards-press .container-sm > .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+@media (min-width: 991px) {
+    #awards-press .container-sm > .row {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 991px) {
+    .home .home-content#awards-press .container-sm > .row > div:first-child {
+        padding-left: 50px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-width: 991px) {
+    .col-lg-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+
+    .col-lg-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .col-xl-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+section#awards-press .single-award-logo {
+    padding: 10px;
+}
+
+section#awards-press .award-logo {
+    background: #f8f8f8;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 40px;
+}
+
+section#awards-press .award-logo img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.awardsheading {
+    color: #000;
+    font-family: 'Playfair Display SC Regular', 'Playfair Display SC', 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    position: relative;
+    left: 38px;
+    bottom: -194px;
+}
+
+.cardsparagraph {
+    font-size: 1.15em;
+    font-family: 'Playfair Display ', sans-serif;
+    font-weight: 400;
+    margin-top: 224px;
+    margin-left: 32px;
+}
+
+.cardlink {
+    color: black;
+    line-height: 1;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 1.45em;
+    transition: all .3s;
+    margin-left: 32px;
+    margin-top: 24px;
+}
+
+/* Connect Section */
+.herosection6 {
+    background-color: black;
+    width: 100%;
+    height: 222px;
+
+}
+
+.herosection6 h1 a {
+    color: white;
+}
+
+.herosection6 h1 {
+    font-size: 72px;
+    color: white;
+    padding-left: 932px;
+   
+}
+
+.herosection6 h1:hover {
+    text-decoration: underline;
+    color: white;
+    height: 3px;
+}
+
+
+
+/* Footer */
+footer {
+    
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+.footericon img {
+    height: 150px;
+    max-width: 100%;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Georgia', serif;
+}
+
+.main-nav a {
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.main-nav a:hover {
+    color: black;
+}
+
+.main-nav {
+    margin-left: -429px;
+}
+
+.city-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    column-count: 3;
+    margin-bottom: 10px;
+    column-gap: 20px;
+    font-family: 'Georgia', serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-left: -218px;
+    margin-right: 143px;
+}
+
+.city-list li a {
+    margin-bottom: 6px;
+    color: black;
+}
+
+.footer-divider {
+    border: 1px;
+    height: 1px;
+    background-color: gray;
+    margin: 0;
+}
+
+.small {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.privacysection a {
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+/* Podcast Section */
+.podcast-box {
+    border: 1px solid #eee;
+    align-items: center;
+    background-color: #fafafa;
+    margin-left: -34px;
+    margin-top: 59px;
+}
+
+.play-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.form-field {
+    background-color: #f4f4f4;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.social-icons a {
+    font-size: 20px;
+    margin-right: 15px;
+    color: #000;
+}
+
+.social-icons a:hover {
+    color: black;
+}
+
+.footer {
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.herosection6 {
+  background-color: black;
+  width:auto;
+  height: 222px;
+
+}
+.herosection6 h1 a {
+  color: white;
+  
+}
+
+.herosection6 h1 {
+  font-size: 72px;
+  color: white;
+  
+}
+
+.herosection6 h1:hover {
+  text-decoration: underline;
+  color: white;
+  height: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.herosection6 h1 a {
+  color: white;
+
+  width: 100%;
+    display: block;
+    font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 1;
+    text-transform: uppercase;
+
+
+
+
+
+}
+
+
+.herosection6 h1:hover {
+  text-decoration: underline;
+  color: white;
+  height: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 1600px) {
+    .whitebg h1 {
+        padding-left: 300px;
+        font-size: 90px;
+    }
+    
+    .herosection img {
+        margin-left: 600px;
+    }
+    
+    .herosection6 h1 {
+        padding-left: 700px;
+    }
+    
+  
+    .leftarrow {
+        margin-left: 619px;
+    }
+    
+        .rightarrow {
+        margin-left: 1400px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .whitebg h1 {
+        padding-left: 250px;
+        font-size: 80px;
+    }
+    
+    .herosection img {
+        margin-left: 550px;
+    }
+    
+    .herosection6 h1 {
+        padding-left: 600px;
+        font-size: 60px;
+    }
+    
+    .leftarrow {
+        margin-left: 450px;
+    }
+    
+    .rightarrow {
+        margin-left: 1050px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .whitebg h1 {
+        padding-left: 200px;
+        font-size: 70px;
+    }
+    
+    .herosection img {
+        margin-left: 450px;
+    }
+    
+    .hero-paragraph {
+        font-size: 24px;
+        max-width: 900px;
+    }
+    
+    .herosection6 h1 {
+        padding-left: 500px;
+        font-size: 50px;
+        padding-top: 90px;
+    }
+    
+    .leftarrow {
+        margin-left: 350px;
+    }
+    
+    .rightarrow {
+        margin-left: 850px;
+    }
+    
+    .dynamicdata {
+        margin-left: -50px;
+    }
+    
+    .herosection2 img {
+        margin-left: 50px;
+    }
+    
+    .herosection2 h5 {
+        margin-left: 100px;
+    }
+    
+    .main-nav {
+        margin-left: -300px;
+    }
+    
+    .city-list {
+        margin-left: -100px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .whitebg h1 {
+        padding-left: 150px;
+        font-size: 60px;
+        padding-top: 220px;
+    }
+    
+    .whitebg {
+        height: 450px;
+    }
+    
+    .herosection img {
+        margin-left: 350px;
+        margin-top: 100px;
+    }
+    
+    .hero-paragraph {
+        font-size: 22px;
+        max-width: 800px;
+        margin-top: 100px;
+    }
+    
+    .btn-outline-gold {
+        margin-left: 0;
+    }
+    
+    .btn-gold {
+        left: 0;
+        top: 50px;
+    }
+    
+    .herosection2 {
+        padding: 80px;
+    }
+    
+    .herosection2 .d-flex {
+        flex-direction: column;
+    }
+    
+    .dynamicdata {
+        margin-left: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .dynamicdata p {
+        width: 100%;
+    }
+    
+    .herosection2 img {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+    
+    .herosection2 h5 {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .arrows {
+        display: none;
+    }
+    
+    .herosection6 {
+        height: 180px;
+    }
+    
+    .herosection6 h1 {
+        padding-left: 400px;
+        font-size: 40px;
+        padding-top: 70px;
+    }
+    
+    .main-nav {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .city-list {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        column-count: 2;
+    }
+    
+    .awardsheading {
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    .cardsparagraph {
+        margin-top: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .cardlink {
+        margin-left: 0;
+        text-align: center;
+        display: block;
+        margin-bottom: 30px;
+    }
+    
+    .podcast-box {
+        margin-left: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .whitebg h1 {
+        padding-left: 50px;
+        font-size: 50px;
+        padding-top: 180px;
+    }
+    
+    .whitebg {
+        height: 400px;
+    }
+    
+    .herosection img {
+        margin-left: 250px;
+        margin-top: 80px;
+        width: 120px;
+        height: 140px;
+    }
+    
+    .hero-paragraph {
+        font-size: 20px;
+        max-width: 100%;
+        margin-top: 80px;
+        padding: 0 20px;
+    }
+    
+    .btnsection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .btn-outline-gold {
+        margin-top: 30px;
+    }
+    
+    .btn-gold {
+        position: static;
+        margin-top: 20px;
+    }
+    
+    .herosection2 {
+        padding: 40px;
+        margin-top: -80px;
+    }
+    
+  
+    
+    .herosection6 h1 {
+        padding-left: 200px;
+        font-size: 35px;
+        padding-top: 60px;
+    }
+    
+    
+    
+    .footericon img {
+        height: 120px;
+    }
+    
+    .main-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .city-list {
+        column-count: 1;
+    }
+    
+    .navbar-nav li a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .whitebg h1 {
+        padding-left: 20px;
+        font-size: 40px;
+        padding-top: 150px;
+        text-align: center;
+    }
+    
+    .whitebg {
+        height: 350px;
+    }
+    
+    .herosection img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 40px;
+    }
+    
+    .hero-paragraph {
+        font-size: 18px;
+        margin-top: 60px;
+    }
+    
+    .herosection6 h1 {
+        padding-left: 0;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+    
+    .privacysection {
+        margin-top: 20px;
+    }
+    
+    .navbar-brand img {
+        height: 100px;
+    }
+}
+
+/* Ensure images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Fix for awards section on medium screens */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .awards .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+.custom-navbar {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 1.2rem 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: var(--transition);
+    backdrop-filter: blur(10px);
+}
+
+
+
+
+
+/* Responsive adjustments for tablets and larger phones */
+@media (min-width: 480px) {
+    .whitebg h1 {
+        font-size: 3.5rem;
+    }
+    
+    .herosection6 h1 {
+        font-size: 2.5rem;
+    }
+    
+    .city-list {
+        column-count: 2;
+    }
+}
+
+/* Responsive adjustments for small tablets */
+@media (min-width: 600px) {
+    .hero-paragraph {
+        font-size: 20px;
+    }
+    
+    .dynamicdata h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Media Query specifically for 767px and below */
+@media (max-width: 767px) {
+    /* Navbar adjustments */
+    .navbar-nav {
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .navbar-nav .nav-link {
+        margin: 0.8rem 0;
+        font-size: 18px;
+    }
+    
+    /* Hero section adjustments */
+    .hero-section {
+        padding: 60px 20px;
+    }
+    
+    .herosection img {
+        margin: 40px auto;
+    }
+
+
+
+ 
+    
+    /* Button adjustments */
+    .btnsection {
+        flex-direction: column;
+    }
+    
+    .btn-outline-gold {
+        margin: 0;
+    }
+    
+    /* Client section adjustments */
+    .herosection2 {
+        text-align: center;
+    }
+    
+    .herosection2 h5 {
+        margin-left: 0;
+    }
+    
+    /* Footer adjustments */
+    .main-nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-nav a {
+        margin: 5px 0;
+    }
+    
+    /* Connect section adjustments */
+    .herosection6 h1 {
+        padding: 0;
+        text-align: center;
+    }
+    
+    /* Awards section adjustments */
+    .awardsheading {
+        left: 0;
+        bottom: 0;
+        position: relative;
+    }
+    
+    .cardsparagraph {
+        margin-left: 0;
+    }
+    
+    .cardlink {
+        margin-left: 0;
+    }
+
+.herosection6 h1 a {
+  color: white;
+
+  width: 100%;
+    display: block;
+    font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 1;
+    text-transform: uppercase;
+
+}
+
+
+.sectionhaslayout {
+    padding: 50px 0;
+}
+
+
+.topleftfooter ul {
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Additional utility classes for mobile */
+.mobile-hidden {
+    display: none !important;
+}
+
+.mobile-visible {
+    display: block !important;
+}
+
+.text-center-mobile {
+    text-align: center;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+/* Fix for iOS Safari */
+@supports (-webkit-touch-callout: none) {
+    .hero-section {
+        min-height: -webkit-fill-available;
+    }
+}
+
+/* Fix for mobile viewport units */
+@media (max-width: 767px) {
+    .hero-section {
+        min-height: 100vh;
+        min-height: calc(var(--vh, 1vh) * 100);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --text-color-positive-down: 0 51 40;
+}
+
+/* style.css */
+
+/* Body background */
+body {
+  margin: 0;
+  padding: 0;
+  background-color:white; /* Espresso dark background */
+}
+
+
+/* Navbar styling */
+.custom-navbar {
+  background-color:white;
+  /* padding: 1rem 0;      */
+}
+
+/* Logo size */
+.navbar-brand img {
+  height: 150px;
+}
+
+/* Navigation links */
+.navbar-nav .nav-link {
+  color:black !important; /* Golden ochre */
+  font-family: "Georgia", serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive menu styling */
+@media (max-width: 991px) {
+  .navbar-nav {
+    background-color:white;
+    padding-top: 10px;
+  }
+}
+
+.navbar-nav li a {
+  font-size: 21px;
+  gap: 100px;
+  margin-top: -10px;
+}
+
+/* Color Scheme */
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background-color: white;
+  color: black;
+}
+
+.text-gold {
+  color: black;
+}
+
+.hero-section {
+  min-height: 100vh;
+  background-color:white;
+  padding: 60px 20px;
+}
+
+.sr-logo {
+  max-width: 150px;
+}
+
+/* header h1 {
+  font-size: 60px;
+  
+}
+
+header p {
+  font-size: 18px;
+} 
+
+header {
+  margin-top: 90px; 
+} */
+
+header hr {
+  border: none;
+  height: 2px;
+  background-color: black;
+  margin-top: 120px;
+  margin-bottom: 240px;
+}
+
+.herosection img {
+     width: 180px;
+    height: 281px;
+}
+
+
+
+.herosection h2 {
+  margin-left: 10px;
+}
+
+
+.herosection .leftimg img {
+  margin-top: 252px;
+  position: relative;
+  left: 108px;
+}
+.herosection1 img {
+  width: 390px;
+  height: 530px;
+}
+
+.herosection1 {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.herosection1 h2 {
+  margin-top: 163px;
+  line-height: 72px;
+}
+
+
+.herosection1{
+      
+    margin: 0 0 0 auto;
+    width: 100%;
+    color: #000;
+    font-family: Playfair Display Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.herosection2 ul li {
+  margin-bottom: 25px;
+}
+
+.herosection2 ul li a {
+  font-size: 26px;
+  color: black;
+}
+
+.herosection2 img {
+  width: 587px;
+  height: 347px;
+  margin-bottom: 30px;
+  margin-top: 90px;
+}
+
+.herosection2 p {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.herosection2 h1 {
+  margin-bottom: 35px;
+  margin-left: -20px;
+}
+
+.herosection3 h1 {
+  font-size: 45px;
+  font-weight: 900;
+  
+}
+
+.herosection3 p {
+  font-size: 23px;
+  line-height: 35px;
+  margin-bottom: 100px;
+}
+
+.herosection3 ul li {
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  list-style: none;
+}
+
+.herosection3 .listitems {
+  column-gap: 265px;
+}
+
+.herosection4 img {
+  width: 760px;
+  height: 600px;
+}
+
+
+
+.herosection4 h6 {
+  font-size: 20px;
+  font-weight: 600;
+  width: 504px;
+}
+
+.herosection4 p {
+  font-size: 18px;
+
+  width: 510px;
+}
+
+
+/* 
+.herosection5 img {
+  width: 271px;
+  height: 421px;
+} */
+
+
+
+
+
+
+.herosection5 a h1 {
+  font-size: 22px;
+  text-transform: capitalize;
+  color: black;
+  width: 246px;
+}
+
+
+
+.herosection6 {
+  background-color: black;
+  width:auto;
+  height: 222px;
+
+}
+.herosection6 h1 a {
+  color: white;
+  
+}
+
+.herosection6 h1 {
+  font-size: 72px;
+  color: white;
+  
+}
+
+.herosection6 h1:hover {
+  text-decoration: underline;
+  color: white;
+  height: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.herosection1 p{
+   
+    margin-top: -46px;
+    margin-bottom: 12rem;
+}
+
+ /* Color Scheme */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color:white;
+  color:black;
+}
+
+.text-gold {
+  color:black;
+}
+
+
+
+
+
+.topleftfooter img{
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  font-family: 'Georgia', serif;
+}
+
+.main-nav a {
+  margin: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  
+  text-decoration: none;
+  
+      color:black;
+    font-size: 16px;
+}
+
+.main-nav a:hover {
+  color:black; /* gold */
+  
+}
+
+footer ul{
+  list-style: none;
+  
+}
+
+footer ul li a{
+  list-style: none;
+  color: black;
+}
+
+.topleftfooter ul li a{
+      color: #000;
+    font-family: "Gilroy SemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.toprightfooter ul  {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  column-count: 3;
+  margin-bottom: 10px;
+  
+  font-family: 'Georgia', serif;
+  font-size: 17px;
+  text-transform: uppercase;
+
+  
+    
+}
+
+
+
+.toprightfooter ul li{
+  
+  font-size: 18px;
+    padding: 0 20px 10px 0;
+    font-family: 'Playfair Display SC Regular', 'Playfair Display SC', 'Playfair Display', serif;
+}
+
+
+.small{
+        font-size: 20px;
+    font-weight: 900;
+}
+
+
+
+
+.privacysection a{
+    color:black;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+
+
+
+.podcast-box {
+  border: 1px solid #eee;
+  align-items: center;
+  background-color: #fafafa;
+
+      margin-left: -34px;
+    margin-top: 59px;
+    
+}
+
+.play-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.form-field {
+  background-color: #f4f4f4;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.social-icons a {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #000;
+}
+
+.social-icons a:hover {
+  color: black;
+}
+
+
+
+
+
+
+.herosection6 h1 a {
+  color: white;
+
+  width: 100%;
+    display: block;
+    font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 1;
+    text-transform: uppercase;
+
+
+
+
+
+}
+
+
+.herosection6 h1:hover {
+  text-decoration: underline;
+  color: white;
+  height: 3px;
+}
+
+
+
+
+
+
+.wrappper{overflow: hidden  ;}
+  /* .herosection{
+          margin-top: 85px;
+
+  } */
+   .herosection{
+    padding: 100px 0; 
+    border-bottom:   1px solid black  ;
+   }
+   
+.herosection h1{
+        font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    font-weight: 800;
+            font-size: 3rem;
+}
+.herosection p{ 
+    font-family: 'Playfair Display Regular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+
+.herosection hr {
+    border: none;
+    background-color: black;
+    width: 1320px;
+    height: 1px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
+  
+
+  gap: 20px; /* spacing between items */
+  padding: 20px;
+}
+
+
+.box img{
+    width: 256px;
+    height: 398px;
+   
+}
+
+.box h1{
+        text-align: center;
+    margin-top: 30px;
+    color: #000;
+    font-family: Playfair Display SC Regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3em;
+    padding: 0 20px;
+     margin-bottom: 100px;
+}
+
+
+
+
+.gridpartner {
+  display: flex;
+  justify-content: center;   /* dono ko horizontally center karo */
+  align-items: center;       /* vertically center agar height ho */
+  gap: 40px;                 /* dono ke beech gap */
+  padding: 20px;
+}
+
+.boxpartner {
+  text-align: center;
+  flex: 0 0 auto;            /* shrink ya grow na ho */
+}
+
+.boxpartner img {
+  width: 400px;              /* fix width set karo */
+  height: 450px;
+  object-fit: cover;
+}
+
+
+.boxpartner h1 {
+  font-family: "Playfair Display SC Regular";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.3em;
+  text-align: center;
+}
+.boxpartner p {
+  font-family: "Playfair Display SC";
+  font-size: 23px;
+  font-style: italic;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive code */
+
+
+/* Responsive adjustments for tablets and larger phones */
+@media (min-width: 480px) {
+    .whitebg h1 {
+        font-size: 3.5rem;
+    }
+    
+    .herosection6 h1 {
+        font-size: 2.5rem;
+    }
+    
+    
+}
+
+/* Responsive adjustments for small tablets */
+@media (min-width: 600px) {
+    .hero-paragraph {
+        font-size: 20px;
+    }
+    
+    .dynamicdata h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Media Query specifically for 767px and below */
+@media (max-width: 767px) {
+    /* Navbar adjustments */
+    .navbar-nav {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .sectionhaslayout{
+      padding: 50px 0;
+    }
+    
+    .navbar-nav .nav-link {
+        margin: 0.8rem 0;
+        font-size: 18px;
+    }
+    
+    /* Hero section adjustments */
+    .hero-section {
+        padding: 60px 20px;
+    }
+    
+    .herosection img {
+        margin: 40px auto;
+    }
+    
+    /* Button adjustments */
+    .btnsection {
+        flex-direction: column;
+    }
+    
+    .btn-outline-gold {
+        margin: 0;
+    }
+    
+    /* Client section adjustments */
+    .herosection2 {
+        text-align: center;
+    }
+    
+    .herosection2 h5 {
+        margin-left: 0;
+    }
+    
+    /* Footer adjustments */
+    .main-nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-nav a {
+        margin: 5px 0;
+    }
+    
+    /* Connect section adjustments */
+    .herosection6 h1 {
+        padding: 0;
+        text-align: center;
+    }
+    
+    /* Awards section adjustments */
+    .awardsheading {
+        left: 0;
+        bottom: 0;
+        position: relative;
+    }
+    
+    .cardsparagraph {
+        margin-left: 0;
+    }
+    
+    .cardlink {
+        margin-left: 0;
+    }
+
+
+
+
+    
+}
+
+/* Additional utility classes for mobile */
+.mobile-hidden {
+    display: none !important;
+}
+
+.mobile-visible {
+    display: block !important;
+}
+
+.text-center-mobile {
+    text-align: center;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+/* Fix for iOS Safari */
+@supports (-webkit-touch-callout: none) {
+    .hero-section {
+        min-height: -webkit-fill-available;
+    }
+}
+
+
+
+/* .globle elements*/
+.secttitle{
+  font-size: 2.85rem; 
+  font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+  font-weight: 800;
+} 
+
+.cussection p{
+    margin: 0 0 0 auto;
+    color: #000;
+    font-family: Playfair Display Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+}
+.cussection .secsubheading {
+      font-family: 'Playfair Display SC Regular', 'Playfair Display SC', 'Playfair Display', serif;
+    font-size: 1.65rem;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin: 30px 0 15px;
+}
+
+.sectionhaslayout{
+  padding: 100px 0;
+}
+/* about us section start */
+.aboutussection{
+
+}
+.aboutimageholder{
+  position: relative;
+  display: flex;
+}
+.aboutimageholder .leftimg{
+position: absolute;
+    top: 117px;
+    /* left: 247px; */
+    width: 50%;
+    right: 0;
+}
+.aboutimageholder .rightimg{
+    width: 50%;
+}
+/*  about us section end*/
+
+
+.custabs{
+  display: flex;
+}
+.custabs .nav-tabs{
+  flex-direction: column;
+}
+
+
+
+/* Fix for mobile viewport units */
+@media (max-width: 767px) {
+.herosection {
+    padding: 50px 0;
+    text-align: center;
+}
+.aboutimageholder .leftimg{
+  position: unset;
+}
+
+.herosection3 h1 {
+    font-size: 45px;
+    font-weight: 900;
+   
+}
+
+
+.herosection6 h1 a {
+  color: white;
+
+  width: 100%;
+    display: block;
+    font-family: Gilroy Extra Bold, 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 1;
+    text-transform: uppercase;
+
+}
+
+
+.sectionhaslayout {
+    padding: 50px 0;
+}
+
+
+.topleftfooter ul {
+  flex-wrap: wrap;
+}
+
+
+.herosection4 h6 {
+    
+    width: auto;
+}
+
+.sec3 img{
+
+    max-width: 100%;
+    height: auto;
+
+
+}
+.herosection4 p {
+    font-size: 18px;
+    width: auto
+}
+
+
+} 
+
+
+
+
+.sec3 ul li button{
+  font-family: 'Playfair Display SC Regular', 'Playfair Display SC', 'Playfair Display', serif;
+    font-size: 1.65em;
+    font-weight: 400;
+    line-height: 2.3em;
+    
+        position: relative;
+    transition: all 0.3s;
+    border: none;
+    background: transparent;
+    text-align: left;
+    width: 100%;
+    
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+/* Remove active highlight from nav-tabs */
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    background-color: transparent !important;
+    border: none !important;
+    color: inherit !important; /* keep normal text color */
+    font-weight: normal !important;
+}
+
+/* Remove hover underline/border also */
+.nav-tabs .nav-link {
+    border: none !important;
+    color: inherit !important;
+}
+
+
+
+
+
+/* Mobile par text wrap aur full width rahe */
+.tab-content p {
+  padding-left: 15px;
+  padding-right: 15px;
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: justify; /* optional: better readability */
+}
+
+
+
+@media (max-width: 767px) {
+    .herosection img {
+
+              width: 81%;
+        height: 36%;
+    
+
+
+
+
+    }
+}
+
+
+.slidersection  h2{
+      color: #000;
+    font-family: 'Playfair Display SC Regular', 'Playfair Display SC', 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+}
+
+
+footer ul li a{
+  text-decoration: none;
+}
+
+
+.small {
+    font-size: 20px;
+    font-weight: 900;
+}
